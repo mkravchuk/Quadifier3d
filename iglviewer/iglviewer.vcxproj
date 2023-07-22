@@ -131,7 +131,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;..\meshShared;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PreprocessorDefinitions>ENABLE_IO;ENABLE_SERIALIZATION;ENABLE_SERIALIZATION_CORE_ONLY;DEBUG;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,7 +167,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;..\meshShared;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PreprocessorDefinitions>_DEBUG;ENABLE_IO;ENABLE_SERIALIZATION;ENABLE_SERIALIZATION_CORE_ONLY;DEBUG;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -201,7 +201,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;..\meshShared;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -232,7 +232,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;.\meshShared</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;..\meshShared</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -264,7 +264,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;..\meshShared;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
@@ -293,7 +293,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;.\meshShared</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;..\meshShared</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -324,7 +324,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;.\meshShared</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\nanogui\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\nanovg\src;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include;$(SolutionDir)\_libs\libgl\external;..\meshShared</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
