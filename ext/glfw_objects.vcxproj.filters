@@ -48,7 +48,7 @@
     <ClInclude Include="$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src\internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include=".\ext\glfw_config.h">
+    <ClInclude Include="$(SolutionDir)\ext\glfw_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include\GLFW\glfw3.h">

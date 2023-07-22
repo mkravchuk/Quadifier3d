@@ -102,7 +102,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -119,10 +119,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -132,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -159,7 +159,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -172,10 +172,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -185,7 +185,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -199,10 +199,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,7 +212,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -226,10 +226,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelForProfile\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include;$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src;$(SolutionDir)\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -239,7 +239,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src\internal.h" />
-    <ClInclude Include=".\ext\glfw_config.h" />
+    <ClInclude Include="$(SolutionDir)\ext\glfw_config.h" />
     <ClInclude Include="$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include\GLFW\glfw3.h" />
     <ClInclude Include="$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\include\GLFW\glfw3native.h" />
     <ClInclude Include="$(SolutionDir)\_libs\libgl\external\nanogui\ext\glfw\src\win32_platform.h" />

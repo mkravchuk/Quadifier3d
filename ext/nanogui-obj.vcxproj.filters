@@ -91,7 +91,7 @@
     <ClCompile Include="$(SolutionDir)\_libs\libgl\external\nanogui\src\serializer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\ext\nanogui_resources.cpp" />
+    <ClCompile Include="$(SolutionDir)\ext\nanogui_resources.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(SolutionDir)\_libs\libgl\external\nanogui\ext\glad\include\glad\glad.h">
