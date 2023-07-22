@@ -219,7 +219,7 @@
     <ClCompile Include="$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\src\glew.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\.$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include\GL\glew.h" />
+    <ClInclude Include="..\..\$(SolutionDir)\_libs\libgl\external\nanogui\ext\glew\include\GL\glew.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

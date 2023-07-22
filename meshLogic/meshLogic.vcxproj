@@ -416,7 +416,7 @@
     <ProjectReference Include="..\meshShared\meshShared.vcxproj">
       <Project>{d5f94e88-aeee-474e-a665-3e77a697d00d}</Project>
     </ProjectReference>
-    <ProjectReference Include=".$(SolutionDir)\CommonClasses\CommonClasses.vcxproj">
+    <ProjectReference Include="$(SolutionDir)\CommonClasses\CommonClasses.vcxproj">
       <Project>{c7c5e3dc-2c24-4bf2-9495-5c4af9e57d08}</Project>
     </ProjectReference>
   </ItemGroup>
