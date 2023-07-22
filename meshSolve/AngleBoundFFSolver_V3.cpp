@@ -30,10 +30,10 @@ void AngleBoundFFSolver_V3::computeLaplacians_n(int n, SparseMatrix<complex<D> >
                 complex<D>(1.)));
             tripletList.push_back(Triplet<complex<D> >(fid0,
                 fid1,
-                -1.*std::polar(1., -1.*n*K[eid])));
+                D(-1.)*std::polar(D(1.), D(-1.*n*K[eid]))));
             tripletList.push_back(Triplet<complex<D> >(fid1,
                 fid0,
-                -1.*std::polar(1., 1.*n*K[eid])));
+                D(-1.)*std::polar(D(1.), D(1.*n*K[eid]))));
 
         }
     }

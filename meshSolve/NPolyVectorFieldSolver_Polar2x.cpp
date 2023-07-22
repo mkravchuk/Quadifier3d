@@ -258,8 +258,8 @@ void computeFacesLaplacianCoefficient_Polar_usingTriplet(int facesCount, const I
             int fid0 = EF(eid, 0);
             int fid1 = EF(eid, 1);
 
-            complex<D> s2 = -std::polar(1., 1. * 2 * K[eid]);
-            complex<D> s4 = -std::polar(1., 1. * 4 * K[eid]);
+            complex<D> s2 = -std::polar(D(1.), D(1. * 2 * K[eid]));
+            complex<D> s4 = -std::polar(D(1.), D(1. * 4 * K[eid]));
             complex<Real> s2r = { static_cast<Real>(s2.real()), static_cast<Real>(s2.imag()) }; // convert from D to float
             complex<Real> s4r = { static_cast<Real>(s4.real()), static_cast<Real>(s4.imag()) }; // convert from D to float
             Scalar k10 = Scalar(s2r.real(), s2r.imag(), s4r.real(), s4r.imag());// origin,  degree is responsible of K^2 if degree=2, and K^4 if degree=4, this is becuase in polar coordinates (r,a)^2 == (r*r,a+a) == (r^2, 2a)

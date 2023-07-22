@@ -169,7 +169,7 @@ void computeFacesLaplacianCoefficient_origin(int facesCount, int edgesCount, con
             int fid0 = EF(eid, 0);
             int fid1 = EF(eid, 1);
 
-            Scalar polarPlus = std::polar(1., 1.*degree*K[eid]);
+            Scalar polarPlus = std::polar(RealScalar(1.), RealScalar(1.*degree*K[eid]));
             Scalar polarMinus = Scalar(polarPlus.real(), -polarPlus.imag());
             tripletList.push_back(Triplet<Scalar >(fid0, fid0, Scalar(1.)));
             tripletList.push_back(Triplet<Scalar >(fid1, fid1, Scalar(1.)));
@@ -240,7 +240,7 @@ void computeFacesLaplacianCoefficient_fast(int facesCount, int edgesCount, const
             int fid0 = EF(eid, 0);
             int fid1 = EF(eid, 1);
 
-            Scalar k10 = -std::polar(1., 1. * degree * K[eid]);// origin
+            Scalar k10 = -std::polar(RealScalar(1.), RealScalar(1. * degree * K[eid]));// origin
             //Scalar k10 = -std::polar(1., 1.*4*K[eid]); // works same good as origin with dynamic value 'degree' that could be 2 or 4
             Scalar k01 = Scalar(k10.real(), -k10.imag());
 
@@ -537,7 +537,7 @@ void computeFacesLaplacianCoefficient_fast_fast(int facesCount, int edgesCount, 
             //    real = area0 + area1;
             //}
 
-            Scalar polarPlus = std::polar(1., 1.*degree*K[eid]);
+            Scalar polarPlus = std::polar(RealScalar(1.), RealScalar(1.*degree*K[eid]));
             Scalar polarMinus = Scalar(polarPlus.real(), -polarPlus.imag());
 
             bool knownFound = false;
@@ -691,7 +691,7 @@ void computeFacesLaplacianCoefficient_direct(int facesCount, int edgesCount, con
             int fid0 = EF(eid, 0);
             int fid1 = EF(eid, 1);
 
-            Scalar k10 = -std::polar(1., 1. * degree * K[eid]);// origin
+            Scalar k10 = -std::polar(RealScalar(1.), RealScalar(1. * degree * K[eid]));// origin
 
             if (eid == 0)
             {
