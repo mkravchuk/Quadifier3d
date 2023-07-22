@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include=".\libs\libgl\external\stb_image\stb_image.cpp">
+    <ClCompile Include=".\_libs\libgl\external\stb_image\stb_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include=".\libs\libgl\external\stb_image\stb_image.h">
+    <ClInclude Include=".\_libs\libgl\external\stb_image\stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include=".\libs\libgl\external\stb_image\stb_image_write.h">
+    <ClInclude Include=".\_libs\libgl\external\stb_image\stb_image_write.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -25,7 +25,7 @@ struct TransparencySort_CachedData
 
 
 //
-// TODO use class with built-in common methods: .\libs\libgl\external\nanogui\include\nanogui\glutil.h
+// TODO use class with built-in common methods: .\_libs\libgl\external\nanogui\include\nanogui\glutil.h
 //
 class ViewportData_OpenGLshaders
 {

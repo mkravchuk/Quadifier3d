@@ -1,55 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\draw_beach_ball.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\draw_beach_ball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\draw_floor.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\draw_floor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\draw_mesh.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\draw_mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\draw_point.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\draw_point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\draw_rectangular_marquee.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\draw_rectangular_marquee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\draw_skeleton_3d.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\draw_skeleton_3d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\draw_skeleton_vector_graphics.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\draw_skeleton_vector_graphics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\lens_flare.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\lens_flare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\model_proj_viewport.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\model_proj_viewport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\print_gl_get.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\print_gl_get.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\project.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\project.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\right_axis.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\right_axis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\sort_triangles.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\sort_triangles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\unproject.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\unproject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\unproject_to_zero_plane.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\unproject_to_zero_plane.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\up_axis.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\up_axis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\libs\libgl\include\igl\opengl2\view_axis.cpp">
+    <ClCompile Include=".\_libs\libgl\include\igl\opengl2\view_axis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

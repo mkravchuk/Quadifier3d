@@ -189,8 +189,8 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include=".\libs\libgl\external\tinyxml2\tinyxml2.h" />
-    <ClCompile Include=".\libs\libgl\external\tinyxml2\tinyxml2.cpp" />
+    <ClInclude Include=".\_libs\libgl\external\tinyxml2\tinyxml2.h" />
+    <ClCompile Include=".\_libs\libgl\external\tinyxml2\tinyxml2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

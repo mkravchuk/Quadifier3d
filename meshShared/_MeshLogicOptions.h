@@ -10,8 +10,8 @@
 
 // DISABLED - since this lib reuqired libopenblas.dll, and also is lower qualite and speed from our fast solver
 // also reqiures include 1 'libopenblas.dll.a.lib' and link 2 projects 'iglcomiso', 'CoMISo'
-// .\libs\libgl\external\CoMISo\ext\OpenBLAS - v0.2.14 - Win64 - int64\lib\libopenblas.dll.a.lib
-// also copy 4 dlls from '.\libs\CoMISo\_libopnblas_dll\'  into exe folder 
+// .\_libs\libgl\external\CoMISo\ext\OpenBLAS - v0.2.14 - Win64 - int64\lib\libopenblas.dll.a.lib
+// also copy 4 dlls from '.\_libs\CoMISo\_libopnblas_dll\'  into exe folder 
 //#define Comiso_SUPPORTED 1
 
 // DISABLED - since switching on this options will result in many errors that have to be fixed! (we use unique optimized solver that was manually tuned for performance)

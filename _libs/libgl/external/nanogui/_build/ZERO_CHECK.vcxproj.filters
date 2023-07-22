@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include=".\libs\libgl\external\nanogui\_build\CMakeFiles\33ee01599a7783ef7f64c620602ac499\generate.stamp.rule">
+    <CustomBuild Include=".\_libs\libgl\external\nanogui\_build\CMakeFiles\33ee01599a7783ef7f64c620602ac499\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>

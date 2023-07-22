@@ -58,25 +58,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\libs\libgl\external\nanogui\_build\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\_libs\libgl\external\nanogui\_build\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nanogui.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nanogui</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\libs\libgl\external\nanogui\_build\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\_libs\libgl\external\nanogui\_build\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nanogui.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nanogui</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.\libs\libgl\external\nanogui\_build\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.\_libs\libgl\external\nanogui\_build\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nanogui.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nanogui</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.\libs\libgl\external\nanogui\_build\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.\_libs\libgl\external\nanogui\_build\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nanogui.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nanogui</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
@@ -85,7 +85,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR=\"Debug\";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR=\"Release\";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -176,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -194,10 +194,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR=\"MinSizeRel\";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -222,7 +222,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -240,10 +240,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\glad\include;.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\external\nanogui\ext\glfw\include;.\_libs\libgl\external\nanogui\ext\nanovg\src;.\_libs\libgl\external\nanogui\include;.\_libs\libgl\external\nanogui\_build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -267,10 +267,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include=".\libs\libgl\external\nanogui\CMakeLists.txt">
+    <CustomBuild Include=".\_libs\libgl\external\nanogui\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule K:/libs/libgl/external/nanogui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\libs\CMake\bin\cmake.exe -HK:/libs/libgl/external/nanogui -BK:/libs/libgl/external/nanogui/_build --check-stamp-file .\libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp
+C:\libs\CMake\bin\cmake.exe -HK:/libs/libgl/external/nanogui -BK:/libs/libgl/external/nanogui/_build --check-stamp-file .\_libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,12 +278,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:/libs/libgl/external/nanogui/CMakeLists.txt;.\libs\libgl\external\nanogui\CMakeLists.txt;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceRuns.cmake;.\libs\libgl\external\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:/libs/libgl/external/nanogui/CMakeLists.txt;.\_libs\libgl\external\nanogui\CMakeLists.txt;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceRuns.cmake;.\_libs\libgl\external\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\_libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule K:/libs/libgl/external/nanogui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\libs\CMake\bin\cmake.exe -HK:/libs/libgl/external/nanogui -BK:/libs/libgl/external/nanogui/_build --check-stamp-file .\libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp
+C:\libs\CMake\bin\cmake.exe -HK:/libs/libgl/external/nanogui -BK:/libs/libgl/external/nanogui/_build --check-stamp-file .\_libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,12 +291,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:/libs/libgl/external/nanogui/CMakeLists.txt;.\libs\libgl\external\nanogui\CMakeLists.txt;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceRuns.cmake;.\libs\libgl\external\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:/libs/libgl/external/nanogui/CMakeLists.txt;.\_libs\libgl\external\nanogui\CMakeLists.txt;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceRuns.cmake;.\_libs\libgl\external\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\_libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule K:/libs/libgl/external/nanogui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\libs\CMake\bin\cmake.exe -HK:/libs/libgl/external/nanogui -BK:/libs/libgl/external/nanogui/_build --check-stamp-file .\libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp
+C:\libs\CMake\bin\cmake.exe -HK:/libs/libgl/external/nanogui -BK:/libs/libgl/external/nanogui/_build --check-stamp-file .\_libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -304,12 +304,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">K:/libs/libgl/external/nanogui/CMakeLists.txt;.\libs\libgl\external\nanogui\CMakeLists.txt;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceRuns.cmake;.\libs\libgl\external\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.\libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">K:/libs/libgl/external/nanogui/CMakeLists.txt;.\_libs\libgl\external\nanogui\CMakeLists.txt;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceRuns.cmake;.\_libs\libgl\external\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.\_libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule K:/libs/libgl/external/nanogui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\libs\CMake\bin\cmake.exe -HK:/libs/libgl/external/nanogui -BK:/libs/libgl/external/nanogui/_build --check-stamp-file .\libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp
+C:\libs\CMake\bin\cmake.exe -HK:/libs/libgl/external/nanogui -BK:/libs/libgl/external/nanogui/_build --check-stamp-file .\_libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -317,57 +317,57 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">K:/libs/libgl/external/nanogui/CMakeLists.txt;.\libs\libgl\external\nanogui\CMakeLists.txt;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;.\libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceRuns.cmake;.\libs\libgl\external\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.\libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">K:/libs/libgl/external/nanogui/CMakeLists.txt;.\_libs\libgl\external\nanogui\CMakeLists.txt;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;.\_libs\libgl\external\nanogui\_build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\libs\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\libs\CMake\share\cmake-3.7\Modules\CheckCXXSourceRuns.cmake;.\_libs\libgl\external\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.\_libs\libgl\external\nanogui\_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\nanovg.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\glad.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\nanogui_resources.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\glutil.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\common.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\widget.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\theme.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\layout.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\screen.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\label.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\window.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\popup.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\checkbox.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\button.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\popupbutton.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\combobox.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\progressbar.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\slider.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\messagedialog.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\textbox.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\imagepanel.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\imageview.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\vscrollpanel.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\colorwheel.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\colorpicker.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\graph.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\stackedwidget.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\tabheader.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\tabwidget.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\glcanvas.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\serializer.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\context.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\init.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\input.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\monitor.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\vulkan.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\window.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_init.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_joystick.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_monitor.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_time.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_tls.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_window.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\wgl_context.obj" />
-    <Object Include=".\libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\egl_context.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\nanovg.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\glad.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\nanogui_resources.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\glutil.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\common.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\widget.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\theme.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\layout.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\screen.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\label.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\window.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\popup.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\checkbox.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\button.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\popupbutton.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\combobox.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\progressbar.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\slider.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\messagedialog.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\textbox.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\imagepanel.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\imageview.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\vscrollpanel.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\colorwheel.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\colorpicker.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\graph.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\stackedwidget.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\tabheader.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\tabwidget.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\glcanvas.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\nanogui-obj.dir\$(Configuration)\serializer.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\context.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\init.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\input.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\monitor.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\vulkan.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\window.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_init.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_joystick.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_monitor.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_time.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_tls.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_window.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\wgl_context.obj" />
+    <Object Include=".\_libs\libgl\external\nanogui\_build\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\egl_context.obj" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="K:/libs/libgl/external/nanogui/_build/ZERO_CHECK.vcxproj">

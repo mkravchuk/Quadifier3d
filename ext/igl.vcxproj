@@ -131,7 +131,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,7 +160,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -175,10 +175,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -189,7 +189,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
@@ -204,10 +204,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -218,7 +218,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -246,7 +246,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -260,10 +260,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -274,7 +274,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -289,10 +289,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -303,7 +303,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -318,10 +318,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -330,333 +330,333 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include=".\libs\libgl\include\igl\AABB.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\EPS.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\active_set.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\adjacency_list.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\adjacency_matrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\all_edges.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\all_pairs_distances.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\ambient_occlusion.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\angle_bound_frame_fields.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\angular_distance.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\any_of.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\arap.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\arap_dof.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\arap_linear_block.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\arap_rhs.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\average_onto_faces.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\average_onto_vertices.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\avg_edge_length.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\axis_angle_to_quat.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\barycenter.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\barycentric_coordinates.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\barycentric_to_global.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\basename.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\bbw.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\bfs_orient.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\biharmonic_coordinates.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\bone_parents.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\boundary_conditions.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\boundary_facets.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\boundary_loop.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\bounding_box.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\bounding_box_diagonal.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\canonical_quaternions.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cat.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\ceil.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\centroid.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\circulation.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\collapse_edge.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\collapse_small_triangles.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\colon.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\column_to_quats.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\columnize.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\comb_cross_field.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\comb_frame_field.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\comb_line_field.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\components.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\compute_frame_field_bisectors.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\conjugate_frame_fields.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\connect_boundary_to_infinity.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cotmatrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cotmatrix_entries.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\covariance_scatter_matrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cross.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cross_field_missmatch.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\crouzeix_raviart_massmatrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cumsum.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cut_mesh.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cut_mesh_from_singularities.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\cylinder.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\dated_copy.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\decimate.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\deform_skeleton.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\delaunay_triangulation.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\diag.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\dihedral_angles.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\dijkstra.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\directed_edge_orientations.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\directed_edge_parents.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\dirname.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\dot.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\dot_row.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\doublearea.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\dqs.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\edge_collapse_is_valid.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\edge_flaps.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\edge_lengths.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\edge_topology.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\edges.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\eigs.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\euler_characteristic.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\example_fun.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\exterior_edges.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\extract_manifold_patches.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\extract_non_manifold_edge_curves.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\face_areas.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\face_occurrences.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\faces_first.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\facet_components.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\false_barycentric_subdivision.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\field_local_global_conversions.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\file_contents_as_string.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\file_dialog_open.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\file_dialog_save.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\file_exists.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\find.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\find_cross_field_singularities.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\fit_plane.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\fit_rotations.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\flip_avoiding_line_search.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\flip_edge.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\flipped_triangles.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\flood_fill.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\floor.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\forward_kinematics.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\frame_field_deformer.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\frame_to_cross_field.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\frustum.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\gaussian_curvature.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\get_seconds.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\get_seconds_hires.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\grad.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\grid.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\group_sum_matrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\harmonic.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\harwell_boeing.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\hausdorff.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\histc.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\hsv_to_rgb.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\in_element.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\infinite_cost_stopping_condition.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\integrable_polyvector_fields.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\internal_angles.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\intersect.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\invert_diag.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_border_vertex.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_boundary_edge.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_dir.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_edge_manifold.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_file.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_irregular_vertex.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_planar.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_readable.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_sparse.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_symmetric.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_vertex_manifold.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\is_writable.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\isdiag.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\ismember.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\jet.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\launch_medit.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\lbs_matrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\lexicographic_triangulation.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\limit_faces.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\line_field_missmatch.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\line_search.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\line_segment_in_rectangle.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\linprog.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\list_to_matrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\local_basis.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\look_at.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\loop.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\lscm.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\map_vertices_to_circle.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\massmatrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\mat_max.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\mat_min.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\mat_to_quat.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\matlab_format.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\matrix_to_list.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\max_faces_stopping_condition.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\max_size.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\median.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\min_quad_dense.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\min_quad_with_fixed.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\min_size.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\mod.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\mode.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\mvc.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\n_polyvector.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\n_polyvector_general.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\nchoosek.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\next_filename.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\normal_derivative.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\normalize_quat.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\normalize_row_lengths.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\normalize_row_sums.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\null.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\on_boundary.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\orient_outward.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\orientable_patches.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\orth.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\ortho.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\outer_element.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\parallel_transport_angles.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\partition.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\parula.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\path_to_executable.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\pathinfo.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\per_corner_normals.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\per_edge_normals.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\per_face_normals.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\per_vertex_attribute_smoothing.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\per_vertex_normals.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\per_vertex_point_to_plane_quadrics.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\piecewise_constant_winding_number.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\planarize_quad_mesh.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\point_in_circle.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\point_in_poly.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\point_mesh_squared_distance.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\point_simplex_squared_distance.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polar_dec.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polar_svd.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polar_svd3x3.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polygon_mesh_to_triangle_mesh.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polyroots.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polyvector_field_comb_from_matchings_and_cuts.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polyvector_field_cut_mesh_with_singularities.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polyvector_field_matchings.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polyvector_field_poisson_reconstruction.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\polyvector_field_singularities_from_matchings.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\principal_curvature.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\print_ijv.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\print_vector.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\procrustes.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\project.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\project_isometrically_to_plane.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\project_to_line.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\project_to_line_segment.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\pseudonormal_test.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\qslim.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\qslim_optimal_collapse_edge_callbacks.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\quad_planarity.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\quadric_binary_plus_operator.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\quat_conjugate.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\quat_mult.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\quat_to_axis_angle.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\quat_to_mat.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\quats_to_column.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\random_dir.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\random_points_on_mesh.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\random_quaternion.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\randperm.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\ray_box_intersect.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\ray_mesh_intersect.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\ray_sphere_intersect.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readBF.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readCSV.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readDMAT.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readMESH.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readNODE.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readOBJ.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readOFF.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readPLY.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readSTL.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readTGF.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\readWRL.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\read_triangle_mesh.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\remove_duplicate_vertices.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\remove_duplicates.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\remove_unreferenced.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\reorder.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\repdiag.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\repmat.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\resolve_duplicated_faces.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\rgb_to_hsv.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\rotate_by_quat.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\rotate_vectors.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\rotation_matrix_from_directions.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\round.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\rows_to_matrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\sample_edges.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\seam_edges.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\segment_segment_intersect.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\setdiff.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\shortest_edge_and_midpoint.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\signed_distance.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\simplify_polyhedron.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\slice.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\slice_into.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\slice_mask.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\slice_tets.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\slim.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\snap_points.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\snap_to_canonical_view_quat.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\snap_to_fixed_up.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\sort.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\sort_angles.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\sort_triangles.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\sort_vectors_ccw.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\sortrows.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\sparse.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\speye.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\squared_edge_lengths.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\stdin_to_temp.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\streamlines.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\sum.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\svd3x3.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\svd3x3_avx.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\svd3x3_sse.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\swept_volume_bounding_box.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\swept_volume_signed_distance.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\trackball.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\transpose_blocks.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\triangle_fan.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\triangle_triangle_adjacency.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\triangles_from_strip.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\two_axis_valuator_fixed_up.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\uniformly_sample_two_manifold.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\unique.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\unique_edge_map.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\unique_simplices.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\unproject.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\unproject_in_mesh.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\unproject_onto_mesh.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\unproject_ray.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\unzip_corners.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\upsample.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\vector_area_matrix.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\vertex_triangle_adjacency.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\volume.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\voxel_grid.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\winding_number.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writeBF.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writeDMAT.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writeMESH.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writeOBJ.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writeOFF.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writePLY.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writeSTL.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writeTGF.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\writeWRL.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\write_triangle_mesh.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\copyleft\marching_cubes.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\copyleft\progressive_hulls.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\copyleft\progressive_hulls_cost_and_placement.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\copyleft\quadprog.cpp" />
-    <ClCompile Include=".\libs\libgl\include\igl\copyleft\swept_volume.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\AABB.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\EPS.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\active_set.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\adjacency_list.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\adjacency_matrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\all_edges.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\all_pairs_distances.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\ambient_occlusion.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\angle_bound_frame_fields.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\angular_distance.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\any_of.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\arap.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\arap_dof.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\arap_linear_block.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\arap_rhs.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\average_onto_faces.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\average_onto_vertices.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\avg_edge_length.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\axis_angle_to_quat.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\barycenter.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\barycentric_coordinates.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\barycentric_to_global.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\basename.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\bbw.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\bfs_orient.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\biharmonic_coordinates.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\bone_parents.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\boundary_conditions.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\boundary_facets.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\boundary_loop.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\bounding_box.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\bounding_box_diagonal.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\canonical_quaternions.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cat.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\ceil.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\centroid.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\circulation.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\collapse_edge.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\collapse_small_triangles.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\colon.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\column_to_quats.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\columnize.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\comb_cross_field.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\comb_frame_field.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\comb_line_field.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\components.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\compute_frame_field_bisectors.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\conjugate_frame_fields.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\connect_boundary_to_infinity.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cotmatrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cotmatrix_entries.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\covariance_scatter_matrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cross.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cross_field_missmatch.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\crouzeix_raviart_massmatrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cumsum.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cut_mesh.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cut_mesh_from_singularities.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\cylinder.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\dated_copy.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\decimate.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\deform_skeleton.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\delaunay_triangulation.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\diag.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\dihedral_angles.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\dijkstra.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\directed_edge_orientations.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\directed_edge_parents.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\dirname.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\dot.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\dot_row.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\doublearea.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\dqs.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\edge_collapse_is_valid.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\edge_flaps.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\edge_lengths.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\edge_topology.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\edges.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\eigs.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\euler_characteristic.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\example_fun.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\exterior_edges.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\extract_manifold_patches.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\extract_non_manifold_edge_curves.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\face_areas.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\face_occurrences.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\faces_first.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\facet_components.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\false_barycentric_subdivision.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\field_local_global_conversions.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\file_contents_as_string.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\file_dialog_open.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\file_dialog_save.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\file_exists.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\find.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\find_cross_field_singularities.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\fit_plane.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\fit_rotations.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\flip_avoiding_line_search.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\flip_edge.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\flipped_triangles.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\flood_fill.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\floor.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\forward_kinematics.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\frame_field_deformer.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\frame_to_cross_field.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\frustum.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\gaussian_curvature.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\get_seconds.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\get_seconds_hires.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\grad.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\grid.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\group_sum_matrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\harmonic.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\harwell_boeing.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\hausdorff.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\histc.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\hsv_to_rgb.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\in_element.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\infinite_cost_stopping_condition.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\integrable_polyvector_fields.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\internal_angles.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\intersect.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\invert_diag.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_border_vertex.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_boundary_edge.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_dir.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_edge_manifold.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_file.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_irregular_vertex.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_planar.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_readable.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_sparse.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_symmetric.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_vertex_manifold.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\is_writable.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\isdiag.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\ismember.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\jet.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\launch_medit.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\lbs_matrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\lexicographic_triangulation.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\limit_faces.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\line_field_missmatch.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\line_search.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\line_segment_in_rectangle.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\linprog.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\list_to_matrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\local_basis.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\look_at.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\loop.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\lscm.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\map_vertices_to_circle.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\massmatrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\mat_max.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\mat_min.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\mat_to_quat.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\matlab_format.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\matrix_to_list.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\max_faces_stopping_condition.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\max_size.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\median.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\min_quad_dense.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\min_quad_with_fixed.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\min_size.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\mod.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\mode.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\mvc.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\n_polyvector.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\n_polyvector_general.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\nchoosek.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\next_filename.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\normal_derivative.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\normalize_quat.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\normalize_row_lengths.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\normalize_row_sums.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\null.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\on_boundary.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\orient_outward.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\orientable_patches.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\orth.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\ortho.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\outer_element.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\parallel_transport_angles.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\partition.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\parula.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\path_to_executable.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\pathinfo.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\per_corner_normals.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\per_edge_normals.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\per_face_normals.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\per_vertex_attribute_smoothing.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\per_vertex_normals.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\per_vertex_point_to_plane_quadrics.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\piecewise_constant_winding_number.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\planarize_quad_mesh.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\point_in_circle.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\point_in_poly.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\point_mesh_squared_distance.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\point_simplex_squared_distance.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polar_dec.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polar_svd.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polar_svd3x3.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polygon_mesh_to_triangle_mesh.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polyroots.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polyvector_field_comb_from_matchings_and_cuts.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polyvector_field_cut_mesh_with_singularities.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polyvector_field_matchings.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polyvector_field_poisson_reconstruction.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\polyvector_field_singularities_from_matchings.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\principal_curvature.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\print_ijv.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\print_vector.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\procrustes.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\project.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\project_isometrically_to_plane.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\project_to_line.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\project_to_line_segment.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\pseudonormal_test.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\qslim.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\qslim_optimal_collapse_edge_callbacks.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\quad_planarity.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\quadric_binary_plus_operator.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\quat_conjugate.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\quat_mult.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\quat_to_axis_angle.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\quat_to_mat.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\quats_to_column.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\random_dir.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\random_points_on_mesh.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\random_quaternion.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\randperm.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\ray_box_intersect.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\ray_mesh_intersect.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\ray_sphere_intersect.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readBF.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readCSV.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readDMAT.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readMESH.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readNODE.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readOBJ.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readOFF.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readPLY.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readSTL.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readTGF.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\readWRL.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\read_triangle_mesh.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\remove_duplicate_vertices.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\remove_duplicates.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\remove_unreferenced.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\reorder.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\repdiag.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\repmat.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\resolve_duplicated_faces.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\rgb_to_hsv.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\rotate_by_quat.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\rotate_vectors.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\rotation_matrix_from_directions.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\round.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\rows_to_matrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\sample_edges.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\seam_edges.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\segment_segment_intersect.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\setdiff.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\shortest_edge_and_midpoint.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\signed_distance.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\simplify_polyhedron.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\slice.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\slice_into.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\slice_mask.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\slice_tets.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\slim.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\snap_points.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\snap_to_canonical_view_quat.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\snap_to_fixed_up.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\sort.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\sort_angles.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\sort_triangles.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\sort_vectors_ccw.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\sortrows.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\sparse.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\speye.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\squared_edge_lengths.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\stdin_to_temp.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\streamlines.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\sum.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\svd3x3.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\svd3x3_avx.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\svd3x3_sse.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\swept_volume_bounding_box.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\swept_volume_signed_distance.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\trackball.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\transpose_blocks.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\triangle_fan.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\triangle_triangle_adjacency.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\triangles_from_strip.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\two_axis_valuator_fixed_up.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\uniformly_sample_two_manifold.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\unique.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\unique_edge_map.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\unique_simplices.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\unproject.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\unproject_in_mesh.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\unproject_onto_mesh.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\unproject_ray.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\unzip_corners.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\upsample.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\vector_area_matrix.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\vertex_triangle_adjacency.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\volume.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\voxel_grid.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\winding_number.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writeBF.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writeDMAT.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writeMESH.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writeOBJ.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writeOFF.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writePLY.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writeSTL.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writeTGF.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\writeWRL.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\write_triangle_mesh.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\marching_cubes.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\progressive_hulls.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\progressive_hulls_cost_and_placement.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\quadprog.cpp" />
+    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\swept_volume.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Natvis Include="..\_Debuging\eigen.natvis" />
