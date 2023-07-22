@@ -131,7 +131,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost;K:\source\Quadifier3d\CommonClasses;K:\libs\vector_class</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost;.\CommonClasses;.\libs\vector_class</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -150,10 +150,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -164,7 +164,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost;K:\source\Quadifier3d\CommonClasses;K:\libs\vector_class</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost;.\CommonClasses;.\libs\vector_class</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -181,10 +181,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -195,7 +195,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost;K:\libs\vector_class;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost;.\libs\vector_class;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -209,10 +209,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -223,7 +223,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -237,10 +237,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -251,7 +251,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost;K:\source\Quadifier3d\CommonClasses;K:\libs\vector_class</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost;.\CommonClasses;.\libs\vector_class</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -267,10 +267,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -281,7 +281,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -296,10 +296,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -310,7 +310,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\libs\boost</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -329,10 +329,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

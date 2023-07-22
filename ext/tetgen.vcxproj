@@ -189,8 +189,8 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="K:\libs\libgl\external\tetgen\tetgen.cxx" />
-    <ClCompile Include="K:\libs\libgl\external\tetgen\predicates.cxx" />
+    <ClCompile Include=".\libs\libgl\external\tetgen\tetgen.cxx" />
+    <ClCompile Include=".\libs\libgl\external\tetgen\predicates.cxx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

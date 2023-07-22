@@ -78,7 +78,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +109,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>false</ExceptionHandling>
@@ -121,10 +121,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -135,7 +135,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -149,10 +149,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,7 +163,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -177,10 +177,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\stb_image;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\stb_image;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -189,12 +189,12 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="K:\libs\libgl\include\igl\png\readPNG.cpp" />
-    <ClCompile Include="K:\libs\libgl\include\igl\png\render_to_png.cpp" />
-    <ClCompile Include="K:\libs\libgl\include\igl\png\render_to_png_async.cpp" />
-    <ClCompile Include="K:\libs\libgl\include\igl\png\texture_from_file.cpp" />
-    <ClCompile Include="K:\libs\libgl\include\igl\png\texture_from_png.cpp" />
-    <ClCompile Include="K:\libs\libgl\include\igl\png\writePNG.cpp" />
+    <ClCompile Include=".\libs\libgl\include\igl\png\readPNG.cpp" />
+    <ClCompile Include=".\libs\libgl\include\igl\png\render_to_png.cpp" />
+    <ClCompile Include=".\libs\libgl\include\igl\png\render_to_png_async.cpp" />
+    <ClCompile Include=".\libs\libgl\include\igl\png\texture_from_file.cpp" />
+    <ClCompile Include=".\libs\libgl\include\igl\png\texture_from_png.cpp" />
+    <ClCompile Include=".\libs\libgl\include\igl\png\writePNG.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

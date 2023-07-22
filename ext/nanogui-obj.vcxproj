@@ -130,7 +130,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -147,10 +147,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,7 +161,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -178,10 +178,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -192,7 +192,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
@@ -207,10 +207,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -221,7 +221,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -236,10 +236,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,7 +250,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -264,10 +264,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -278,7 +278,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -293,10 +293,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -307,7 +307,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -322,10 +322,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\glad\include;K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\include;K:\source\Quadifier3d\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\glad\include;.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\include;.\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -334,43 +334,43 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="K:\libs\libgl\external\nanogui\ext\glad\include\glad\glad.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\ext\glad\include\KHR\khrplatform.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\glutil.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\common.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\widget.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\theme.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\layout.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\screen.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\label.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\window.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\popup.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\checkbox.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\button.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\popupbutton.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\combobox.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\progressbar.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\slider.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\messagedialog.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\textbox.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\imagepanel.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\imageview.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\vscrollpanel.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\colorwheel.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\colorpicker.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\graph.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\stackedwidget.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\tabheader.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\tabwidget.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\glcanvas.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\formhelper.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\toolbutton.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\opengl.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\nanogui.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\serializer\core.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\serializer\opengl.h" />
-    <ClInclude Include="K:\libs\libgl\external\nanogui\include\nanogui\serializer\sparse.h" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\ext\nanovg\src\nanovg.c">
+    <ClInclude Include=".\libs\libgl\external\nanogui\ext\glad\include\glad\glad.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\ext\glad\include\KHR\khrplatform.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\glutil.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\common.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\widget.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\theme.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\layout.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\screen.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\label.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\window.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\popup.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\checkbox.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\button.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\popupbutton.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\combobox.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\progressbar.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\slider.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\messagedialog.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\textbox.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\imagepanel.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\imageview.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\vscrollpanel.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\colorwheel.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\colorpicker.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\graph.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\stackedwidget.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\tabheader.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\tabwidget.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\glcanvas.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\formhelper.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\toolbutton.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\opengl.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\nanogui.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\serializer\core.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\serializer\opengl.h" />
+    <ClInclude Include=".\libs\libgl\external\nanogui\include\nanogui\serializer\sparse.h" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\ext\nanovg\src\nanovg.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">CompileAsC</CompileAs>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4005;4456;4457;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -393,7 +393,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">NVG_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">NVG_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\external\nanogui\ext\glad\src\glad.c">
+    <ClCompile Include=".\libs\libgl\external\nanogui\ext\glad\src\glad.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">CompileAsC</CompileAs>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4055;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -409,35 +409,35 @@
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">4055;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">4055;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
-    <ClCompile Include="K:\source\Quadifier3d\ext\nanogui_resources.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\glutil.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\common.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\widget.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\theme.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\layout.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\screen.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\label.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\window.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\popup.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\checkbox.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\button.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\popupbutton.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\combobox.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\progressbar.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\slider.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\messagedialog.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\textbox.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\imagepanel.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\imageview.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\vscrollpanel.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\colorwheel.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\colorpicker.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\graph.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\stackedwidget.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\tabheader.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\tabwidget.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\glcanvas.cpp" />
-    <ClCompile Include="K:\libs\libgl\external\nanogui\src\serializer.cpp" />
+    <ClCompile Include=".\ext\nanogui_resources.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\glutil.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\common.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\widget.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\theme.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\layout.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\screen.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\label.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\window.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\popup.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\checkbox.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\button.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\popupbutton.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\combobox.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\progressbar.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\slider.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\messagedialog.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\textbox.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\imagepanel.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\imageview.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\vscrollpanel.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\colorwheel.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\colorpicker.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\graph.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\stackedwidget.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\tabheader.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\tabwidget.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\glcanvas.cpp" />
+    <ClCompile Include=".\libs\libgl\external\nanogui\src\serializer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="bin2c.vcxproj">

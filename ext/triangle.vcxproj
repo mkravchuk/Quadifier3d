@@ -184,7 +184,7 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="K:\libs\libgl\external\triangle\triangle.c" />
+    <ClCompile Include=".\libs\libgl\external\triangle\triangle.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

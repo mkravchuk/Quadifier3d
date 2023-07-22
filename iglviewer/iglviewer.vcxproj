@@ -131,7 +131,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;.\libs\libgl\external;.\meshShared;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PreprocessorDefinitions>ENABLE_IO;ENABLE_SERIALIZATION;ENABLE_SERIALIZATION_CORE_ONLY;DEBUG;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -150,10 +150,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,13 +161,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalDependencies>K:\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>.\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;.\libs\libgl\external;.\meshShared;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PreprocessorDefinitions>_DEBUG;ENABLE_IO;ENABLE_SERIALIZATION;ENABLE_SERIALIZATION_CORE_ONLY;DEBUG;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -184,10 +184,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -195,13 +195,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalDependencies>K:\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>.\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;.\libs\libgl\external;.\meshShared;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -215,10 +215,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -226,13 +226,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalDependencies>K:\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>.\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;.\libs\libgl\external;.\meshShared</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -247,10 +247,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -258,13 +258,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalDependencies>K:\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>.\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;.\libs\libgl\external;.\meshShared;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
@@ -278,10 +278,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -293,7 +293,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;.\libs\libgl\external;.\meshShared</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -309,10 +309,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -324,7 +324,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;.\libs\libgl\external;.\meshShared</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -340,10 +340,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\libs\libgl\include;.\libs\libgl\external\nanogui\include;.\libs\libgl\external\nanogui\ext\nanovg\src;.\libs\libgl\external\nanogui\ext\glfw\include;.\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

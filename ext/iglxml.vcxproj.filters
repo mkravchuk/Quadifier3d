@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="K:\libs\libgl\include\igl\xml\serialize_xml.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\xml\serialize_xml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\xml\writeDAE.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\xml\writeDAE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\xml\write_triangle_mesh.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\xml\write_triangle_mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

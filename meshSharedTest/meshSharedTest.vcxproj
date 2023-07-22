@@ -129,7 +129,7 @@
       <Optimization>MaxSpeed</Optimization>
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>IGL_VIEWER_VIEWER_QUIET;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;IGL_NO_MOSEK;IGL_VIEWER_WITH_NANOGUI;_CONSOLE;CMAKE_INTDIR="Release";_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;EIGEN_NO_DEBUG;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\source\Quadifier3d\CommonClasses;K:\source\Quadifier3d\CommonTypes;K:\source\Quadifier3d\meshShared;K:\libs\vector_class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\CommonClasses;.\CommonTypes;.\meshShared;.\libs\vector_class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>None</DebugInformationFormat>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
@@ -147,7 +147,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>IGL_VIEWER_VIEWER_QUIET;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;IGL_NO_MOSEK;IGL_VIEWER_WITH_NANOGUI;_CONSOLE;CMAKE_INTDIR="Debug";_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;EIGEN_NO_DEBUG;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\source\Quadifier3d\CommonClasses;K:\source\Quadifier3d\CommonTypes;K:\source\Quadifier3d\meshShared;K:\libs\vector_class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\CommonClasses;.\CommonTypes;.\meshShared;.\libs\vector_class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OpenMPSupport>true</OpenMPSupport>
@@ -183,7 +183,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR="Debug";DEBUGIGL_VIEWER_VIEWER_QUIET;IGL_NO_MOSEK;IGL_VIEWER_WITH_NANOGUI;DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\source\Quadifier3d\CommonClasses;K:\source\Quadifier3d\CommonTypes;K:\source\Quadifier3d\meshShared;K:\libs\vector_class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libs\libgl\external\nanogui\ext\eigen;.\CommonClasses;.\CommonTypes;.\meshShared;.\libs\vector_class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <FloatingPointExceptions>true</FloatingPointExceptions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>

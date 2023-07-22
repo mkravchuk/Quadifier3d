@@ -1,55 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\compile_and_link_program.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\compile_and_link_program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\compile_shader.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\compile_shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\create_index_vbo.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\create_index_vbo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\create_mesh_vbo.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\create_mesh_vbo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\create_shader_program.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\create_shader_program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\create_vector_vbo.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\create_vector_vbo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\destroy_shader_program.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\destroy_shader_program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\gl_type_size.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\gl_type_size.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\init_render_to_texture.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\init_render_to_texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\load_shader.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\load_shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\print_program_info_log.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\print_program_info_log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\print_shader_info_log.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\print_shader_info_log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\render_to_tga.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\render_to_tga.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\report_gl_error.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\report_gl_error.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\texture_from_tga.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\texture_from_tga.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\tga.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\tga.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="K:\libs\libgl\include\igl\opengl\uniform_type_to_string.cpp">
+    <ClCompile Include=".\libs\libgl\include\igl\opengl\uniform_type_to_string.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

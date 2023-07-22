@@ -12,7 +12,7 @@ $(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\
 
 or to (for source files *.cpp and *.h)
 
-K:\source\Quadifier3d\ext
+.\ext
 
 
 2) remove all refrences and replace them by local projects
