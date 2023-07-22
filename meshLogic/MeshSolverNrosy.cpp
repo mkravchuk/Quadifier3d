@@ -23,8 +23,8 @@
 #include <igl/polyvector_field_matchings.h>
 #include <igl/segment_segment_intersect.h>
 #include <igl/rotation_matrix_from_directions.h>
-#include "../../../libs/vector_class/vectori128.h"
-#include "../../../libs/vector_class/vectorf128.h"
+#include "../_libs/vector_class/vectori128.h"
+#include "../_libs/vector_class/vectorf128.h"
 
 MeshLogicOptions_SolverNrosy& options = meshLogicOptions.Solver;
 
