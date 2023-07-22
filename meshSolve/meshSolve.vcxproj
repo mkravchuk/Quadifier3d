@@ -131,7 +131,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\_libs\mkl\compilers_and_libraries\windows\mkl\include\;$(SolutionDir)\_libs\vector_class\;.\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\_libs\mkl\compilers_and_libraries\windows\mkl\include\;$(SolutionDir)\_libs\vector_class\;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -164,7 +164,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\_libs\mkl\compilers_and_libraries\windows\mkl\include\;$(SolutionDir)\_libs\vector_class\;.\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\_libs\mkl\compilers_and_libraries\windows\mkl\include\;$(SolutionDir)\_libs\vector_class\;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -195,7 +195,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\_libs\mkl\compilers_and_libraries\windows\mkl\include\;$(SolutionDir)\_libs\vector_class\;.\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\_libs\mkl\compilers_and_libraries\windows\mkl\include\;$(SolutionDir)\_libs\vector_class\;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -251,7 +251,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\_libs\mkl\compilers_and_libraries\windows\mkl\include\;$(SolutionDir)\_libs\vector_class\;.\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;$(SolutionDir)\_libs\mkl\compilers_and_libraries\windows\mkl\include\;$(SolutionDir)\_libs\vector_class\;$(SolutionDir)\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -394,7 +394,7 @@
     <ClInclude Include="UVmiqSolver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CommonClasses\CommonClasses.vcxproj">
+    <ProjectReference Include=".$(SolutionDir)\CommonClasses\CommonClasses.vcxproj">
       <Project>{c7c5e3dc-2c24-4bf2-9495-5c4af9e57d08}</Project>
     </ProjectReference>
     <ProjectReference Include="..\CommonTypes\CommonTypes.vcxproj">
