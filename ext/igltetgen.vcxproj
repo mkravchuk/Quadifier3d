@@ -78,7 +78,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +109,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>false</ExceptionHandling>
@@ -121,10 +121,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -135,7 +135,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -149,10 +149,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,7 +163,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -177,10 +177,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -189,12 +189,12 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\tetgen\cdt.cpp" />
-    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\tetgen\mesh_to_tetgenio.cpp" />
-    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\tetgen\mesh_with_skeleton.cpp" />
-    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\tetgen\read_into_tetgenio.cpp" />
-    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\tetgen\tetgenio_to_tetmesh.cpp" />
-    <ClCompile Include=".\_libs\libgl\include\igl\copyleft\tetgen\tetrahedralize.cpp" />
+    <ClCompile Include="$(SolutionDir)\_libs\libgl\include\igl\copyleft\tetgen\cdt.cpp" />
+    <ClCompile Include="$(SolutionDir)\_libs\libgl\include\igl\copyleft\tetgen\mesh_to_tetgenio.cpp" />
+    <ClCompile Include="$(SolutionDir)\_libs\libgl\include\igl\copyleft\tetgen\mesh_with_skeleton.cpp" />
+    <ClCompile Include="$(SolutionDir)\_libs\libgl\include\igl\copyleft\tetgen\read_into_tetgenio.cpp" />
+    <ClCompile Include="$(SolutionDir)\_libs\libgl\include\igl\copyleft\tetgen\tetgenio_to_tetmesh.cpp" />
+    <ClCompile Include="$(SolutionDir)\_libs\libgl\include\igl\copyleft\tetgen\tetrahedralize.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

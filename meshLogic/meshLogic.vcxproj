@@ -131,7 +131,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve;.\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -150,10 +150,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -164,7 +164,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve;.\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -180,10 +180,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -194,7 +194,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve;.\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -208,10 +208,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -222,7 +222,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>
@@ -236,10 +236,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,7 +250,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve;.\CommonClasses</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve;.\CommonClasses</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -265,10 +265,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -280,7 +280,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -295,10 +295,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -309,7 +309,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external;.\meshShared;.\meshDeform;.\meshSolve</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -325,10 +325,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>.\_libs\libgl\external\nanogui\ext\eigen;.\_libs\libgl\include;.\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;.\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\_libs\libgl\external\nanogui\ext\eigen;$(SolutionDir)\_libs\libgl\include;$(SolutionDir)\_libs\libgl\external\CoMISo\ext\gmm-4.2\include;$(SolutionDir)\_libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
