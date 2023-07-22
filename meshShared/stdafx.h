@@ -14,6 +14,6 @@ using namespace std;
 #define BOOST_COMPUTE_DEBUG_KERNEL_COMPILATION
 #define BOOST_COMPUTE_THREAD_SAFE
 #define BOOST_COMPUTE_USE_OFFLINE_CACHE
-#include <boost/compute.hpp>
+//#include <boost/compute.hpp>
 #include "vectori128.h"
 #include "vectorf128.h"

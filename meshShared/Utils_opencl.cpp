@@ -1,4 +1,5 @@
 #include "stdafx.h"
+/*
 #include "Utils_opencl.h"
 #include <boost/compute.hpp>
 #include "Utils_time.h"
@@ -122,3 +123,5 @@ namespace utils
         }
     }
 }
+
+*/
