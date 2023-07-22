@@ -1,0 +1,11 @@
+void setConstant(T value)
+{
+    for (Index i = 0; i < size(); i++)
+    {
+        data()[i] = value;
+    }
+}
+void setZero()
+{
+    memset(m_data, 0, size() * sizeof(T));
+}

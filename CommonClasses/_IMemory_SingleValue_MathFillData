@@ -1,0 +1,10 @@
+#pragma region  Math Fill data
+void setRandom()
+{
+    for (Index i = 0; i < size(); i++)
+    {
+	    //TODO make random functions for all types
+        data()[i] = static_cast<T>(rand());
+    }
+}
+#pragma endregion 

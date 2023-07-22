@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug _ITERATOR_DEBUG_LEVEL 2|x64">
+      <Configuration>Debug _ITERATOR_DEBUG_LEVEL 2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release+Debug|x64">
+      <Configuration>Release+Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelForProfile|x64">
+      <Configuration>RelForProfile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{668DF7FC-0867-3822-9511-43C3856FCF66}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>iglviewer</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">iglviewer</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">iglviewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">iglviewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">iglviewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">iglviewer</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">iglviewer</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">iglviewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <CodeAnalysisRuleSet>NativeMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
+    <CodeAnalysisRuleSet>NativeMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>ENABLE_IO;ENABLE_SERIALIZATION;ENABLE_SERIALIZATION_CORE_ONLY;DEBUG;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <OpenMPSupport>false</OpenMPSupport>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <RemoveUnreferencedCodeData>false</RemoveUnreferencedCodeData>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalDependencies>K:\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>_DEBUG;ENABLE_IO;ENABLE_SERIALIZATION;ENABLE_SERIALIZATION_CORE_ONLY;DEBUG;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <OpenMPSupport>false</OpenMPSupport>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalDependencies>K:\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>ENABLE_IO;ENABLE_SERIALIZATION;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="Release";NDEBUG;EIGEN_NO_DEBUG;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalDependencies>K:\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalDependencies>K:\libs\glut\lib\x64\freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>ENABLE_IO;ENABLE_SERIALIZATION;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="RelWithDebInfo";NDEBUG;EIGEN_NO_DEBUG;EIGEN_STRONG_INLINE;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <OpenMPSupport>true</OpenMPSupport>
+      <MinimalRebuild>true</MinimalRebuild>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>ENABLE_IO;ENABLE_SERIALIZATION;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="RelWithDebInfo";NDEBUG;EIGEN_NO_DEBUG;EIGEN_STRONG_INLINE;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>ENABLE_IO;ENABLE_SERIALIZATION;_WIN32;WIN32;IGL_VIEWER_VIEWER_QUIET;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR="RelWithDebInfo";NDEBUG;EIGEN_NO_DEBUG;EIGEN_STRONG_INLINE;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;IGL_VIEWER_WITH_NANOGUI;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\nanogui\include;K:\libs\libgl\external\nanogui\ext\nanovg\src;K:\libs\libgl\external\nanogui\ext\glfw\include;K:\libs\libgl\external\nanogui\ext\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGL_Options.cpp" />
+    <ClCompile Include="OpenGL_Program.cpp" />
+    <ClCompile Include="OpenGL_Shader.cpp" />
+    <ClCompile Include="OpenGL_Shared.cpp" />
+    <ClCompile Include="OpenGL_TransformFeedback.cpp" />
+    <ClCompile Include="OpenGL_VertexArrayObject.cpp" />
+    <ClCompile Include="OpenGL_VertexBufferObject.cpp" />
+    <ClCompile Include="trackballXYZaxis.cpp" />
+    <ClCompile Include="ViewportData_OpenGLDrawer.cpp" />
+    <ClCompile Include="ViewportObject.cpp" />
+    <ClCompile Include="ViewportData_OpenGLshaders.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp" />
+    <ClCompile Include="TextRenderer_fonts.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="OpenGL_Window.cpp" />
+    <ClCompile Include="Viewport.cpp" />
+    <ClCompile Include="ViewportData.cpp" />
+    <ClCompile Include="ViewportData_Mesh.cpp" />
+    <ClCompile Include="ViewportVirtualDrawer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenGL_Options.h" />
+    <ClInclude Include="OpenGL_Program.h" />
+    <ClInclude Include="OpenGL_Shader.h" />
+    <ClInclude Include="OpenGL_Shared.h" />
+    <ClInclude Include="OpenGL_TransformFeedback.h" />
+    <ClInclude Include="OpenGL_VertexArrayObject.h" />
+    <ClInclude Include="OpenGL_VertexBufferObject.h" />
+    <ClInclude Include="trackballXYZaxis.h" />
+    <ClInclude Include="ViewportData_OpenGLDrawer.h" />
+    <ClInclude Include="ViewportObject.h" />
+    <ClInclude Include="ViewportData_OpenGLshaders.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextRenderer.h" />
+    <ClInclude Include="TextRenderer_fonts.h" />
+    <ClInclude Include="OpenGL_Window.h" />
+    <ClInclude Include="Viewport.h" />
+    <ClInclude Include="ViewportData.h" />
+    <ClInclude Include="OpenGL_Window_Plugin.h" />
+    <ClInclude Include="ViewportData_Mesh.h" />
+    <ClInclude Include="ViewportVirtualDrawer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonTypes\CommonTypes.vcxproj">
+      <Project>{8d7ae6c8-44be-492d-a0d2-828a8c0ffff1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ext\igl.vcxproj">
+      <Project>{29e5f215-41eb-38e0-837f-31066092ba9b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\meshShared\meshShared.vcxproj">
+      <Project>{d5f94e88-aeee-474e-a665-3e77a697d00d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonClasses\CommonClasses.vcxproj">
+      <Project>{c7c5e3dc-2c24-4bf2-9495-5c4af9e57d08}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

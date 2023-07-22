@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug _ITERATOR_DEBUG_LEVEL 2|x64">
+      <Configuration>Debug _ITERATOR_DEBUG_LEVEL 2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release+Debug|x64">
+      <Configuration>Release+Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelForProfile|x64">
+      <Configuration>RelForProfile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_3dm.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_3dm_attributes.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_3dm_properties.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_3dm_settings.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_annotation.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_annotation2.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_arc.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_arccurve.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_archive.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_array.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_array_defs.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_base32.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_base64.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_beam.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_bezier.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_bitmap.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_bounding_box.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_box.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_brep.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_circle.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_color.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_compress.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_cone.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_crc.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_curve.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_curveonsurface.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_curveproxy.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_cylinder.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_defines.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_detail.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_dimstyle.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_dll_resource.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_ellipse.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_error.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_evaluate_nurbs.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_extensions.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_font.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_fpoint.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_fsp.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_fsp_defs.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_geometry.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_gl.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_group.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_hatch.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_hsort_template.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_instance.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_intersect.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_knot.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_layer.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_light.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_line.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_linecurve.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_linestyle.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_linetype.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_lookup.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_mapchan.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_material.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_math.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_matrix.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_memory.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_mesh.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_nurbscurve.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_nurbssurface.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_object.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_object_history.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_objref.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_offsetsurface.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_optimize.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_photogrammetry.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_plane.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_planesurface.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_pluginlist.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_point.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_pointcloud.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_pointgeometry.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_pointgrid.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_polycurve.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_polyedgecurve.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_polyline.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_polylinecurve.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_qsort_template.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_quaternion.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_rand.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_rendering.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_revsurface.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_rtree.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_sphere.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_string.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_sumsurface.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_surface.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_surfaceproxy.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_system.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_textlog.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_texture.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_texture_mapping.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_torus.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_unicode.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_userdata.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_uuid.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_version.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_viewport.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_workspace.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_xform.h" />
+    <ClInclude Include="..\..\RhinoCommon\c\opennurbs\opennurbs_zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_3dm_attributes.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_3dm_properties.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_3dm_settings.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_annotation.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_annotation2.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_arc.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_arccurve.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_archive.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_array.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_base32.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_base64.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_beam.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_bezier.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_beziervolume.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_bitmap.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_bounding_box.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_box.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_brep.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_brep_extrude.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_brep_io.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_brep_isvalid.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_brep_region.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_brep_tools.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_brep_v2valid.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_circle.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_color.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_compress.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_cone.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_crc.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_curve.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_curveonsurface.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_curveproxy.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_cylinder.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_defines.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_detail.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_dimstyle.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_dll.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_ellipse.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_embedded_file.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_error.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_error_message.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_evaluate_nurbs.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_extensions.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_font.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_fsp.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_geometry.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_gl.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_group.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_hatch.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_instance.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_intersect.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_knot.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_layer.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_light.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_line.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_linecurve.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_linetype.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_lookup.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_material.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_math.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_matrix.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_memory.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_memory_util.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_mesh.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_mesh_ngon.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_mesh_tools.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_morph.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_nurbscurve.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_nurbssurface.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_nurbsvolume.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_object.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_object_history.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_objref.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_offsetsurface.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_optimize.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_photogrammetry.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_plane.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_planesurface.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_pluginlist.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_point.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_pointcloud.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_pointgeometry.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_pointgrid.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_polycurve.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_polyedgecurve.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_polyline.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_polylinecurve.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_precompiledheader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_quaternion.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_rand.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_revsurface.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_rtree.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_sort.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_sphere.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_string.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_sum.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_sumsurface.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_surface.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_surfaceproxy.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_textlog.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_torus.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_unicode.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_userdata.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_uuid.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_viewport.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_workspace.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_wstring.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_xform.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_zlib.cpp" />
+    <ClCompile Include="..\..\RhinoCommon\c\opennurbs\opennurbs_zlib_memory.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8EFA275F-4147-4274-8C5E-38063E39310D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opennurbs</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opennurbs</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">opennurbs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opennurbs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opennurbs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opennurbs</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">opennurbs</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">opennurbs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <CodeAnalysisRuleSet>NativeMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
+    <CodeAnalysisRuleSet>NativeMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>opennurbs.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN64;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>K:\source\RhinoCommon\c\opennurbs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>opennurbs.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>_DEBUG;WIN64;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>K:\source\RhinoCommon\c\opennurbs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>false</ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>opennurbs.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalIncludeDirectories>K:\source\RhinoCommon\c\opennurbs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>opennurbs.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalIncludeDirectories>K:\source\RhinoCommon\c\opennurbs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>opennurbs.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>true</MinimalRebuild>
+      <AdditionalIncludeDirectories>K:\source\RhinoCommon\c\opennurbs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>opennurbs.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>true</MinimalRebuild>
+      <AdditionalIncludeDirectories>K:\source\RhinoCommon\c\opennurbs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>opennurbs.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>true</MinimalRebuild>
+      <AdditionalIncludeDirectories>K:\source\RhinoCommon\c\opennurbs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;ON_COMPILING_OPENNURBS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

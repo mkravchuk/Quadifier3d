@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug _ITERATOR_DEBUG_LEVEL 2|x64">
+      <Configuration>Debug _ITERATOR_DEBUG_LEVEL 2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release+Debug|x64">
+      <Configuration>Release+Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelForProfile|x64">
+      <Configuration>RelForProfile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C886BDA9-640A-4922-A9EF-A052FB36E417}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>meshLogic</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">meshLogic</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">meshLogic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">meshLogic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">meshLogic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">meshLogic</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">meshLogic</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">meshLogic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <CodeAnalysisRuleSet>NativeMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
+    <CodeAnalysisRuleSet>NativeMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\meshDeform;K:\source\Quadifier3d\meshSolve;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR="Debug";DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <OpenMPSupport>false</OpenMPSupport>
+      <RemoveUnreferencedCodeData>false</RemoveUnreferencedCodeData>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\meshDeform;K:\source\Quadifier3d\meshSolve;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\meshDeform;K:\source\Quadifier3d\meshSolve;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR="Release";NDEBUG;EIGEN_NO_DEBUG;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OpenMPSupport>true</OpenMPSupport>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\meshDeform;K:\source\Quadifier3d\meshSolve</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\meshDeform;K:\source\Quadifier3d\meshSolve;K:\source\Quadifier3d\CommonClasses</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;IGL_NO_MOSEK;CMAKE_INTDIR="RelWithDebInfo";NDEBUG;EIGEN_NO_DEBUG;EIGEN_NO_STATIC_ASSERT;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <MinimalRebuild>true</MinimalRebuild>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\meshDeform;K:\source\Quadifier3d\meshSolve</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR="RelWithDebInfo";NDEBUG;EIGEN_NO_DEBUG;EIGEN_STRONG_INLINE;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external;K:\source\Quadifier3d\meshShared;K:\source\Quadifier3d\meshDeform;K:\source\Quadifier3d\meshSolve</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR="RelWithDebInfo";NDEBUG;EIGEN_NO_DEBUG;EIGEN_STRONG_INLINE;EIGEN_NO_STATIC_ASSERT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <RemoveUnreferencedCodeData>false</RemoveUnreferencedCodeData>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_DEPRECATE;IGL_STATIC_LIBRARY;INCLUDE_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\libs\libgl\external\nanogui\ext\eigen;K:\libs\libgl\include;K:\libs\libgl\external\CoMISo\ext\gmm-4.2\include;K:\libs\libgl\external\CoMISo\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Divider.cpp" />
+    <ClCompile Include="DividerIterator.cpp" />
+    <ClCompile Include="DividerLogicConnector.cpp" />
+    <ClCompile Include="DividerOptimalConnector.cpp" />
+    <ClCompile Include="MeshConstrainsUV.cpp" />
+    <ClCompile Include="MeshCutter.cpp" />
+    <ClCompile Include="Mesher.cpp" />
+    <ClCompile Include="MeshGenerator.cpp" />
+    <ClCompile Include="MeshSimplifier.cpp" />
+    <ClCompile Include="MeshSolverUV.cpp" />
+    <ClCompile Include="MeshStreamsAdjuster.cpp" />
+    <ClCompile Include="MeshStreamsTopology.cpp" />
+    <ClCompile Include="MeshStreamsJoiner.cpp" />
+    <ClCompile Include="MeshTopology.cpp" />
+    <ClCompile Include="MeshTopologyLoop.cpp" />
+    <ClCompile Include="MeshFile.cpp" />
+    <ClCompile Include="PolygonMesh.cpp" />
+    <ClCompile Include="_MeshLogicDraw.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshConstrains.cpp" />
+    <ClCompile Include="MeshLoop.cpp" />
+    <ClCompile Include="MeshPart.cpp" />
+    <ClCompile Include="MeshSolverNrosy.cpp" />
+    <ClCompile Include="MeshSurface.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelFile.cpp" />
+    <ClCompile Include="ModelObject.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug _ITERATOR_DEBUG_LEVEL 2|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release+Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelForProfile|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MeshStreams.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Divider.h" />
+    <ClInclude Include="DividerIterator.h" />
+    <ClInclude Include="DividerLogicConnector.h" />
+    <ClInclude Include="DividerOptimalConnector.h" />
+    <ClInclude Include="MeshConstrainsUV.h" />
+    <ClInclude Include="MeshCutter.h" />
+    <ClInclude Include="Mesher.h" />
+    <ClInclude Include="MeshGenerator.h" />
+    <ClInclude Include="MeshSimplifier.h" />
+    <ClInclude Include="MeshSolverUV.h" />
+    <ClInclude Include="MeshStreamsAdjuster.h" />
+    <ClInclude Include="MeshStreamsTopology.h" />
+    <ClInclude Include="MeshStreamsJoiner.h" />
+    <ClInclude Include="MeshTopology.h" />
+    <ClInclude Include="MeshTopologyLoop.h" />
+    <ClInclude Include="MeshFile.h" />
+    <ClInclude Include="PolygonMesh.h" />
+    <ClInclude Include="_MeshLogicDraw.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshConstrains.h" />
+    <ClInclude Include="MeshLoop.h" />
+    <ClInclude Include="MeshPart.h" />
+    <ClInclude Include="MeshSolverNrosy.h" />
+    <ClInclude Include="MeshSurface.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelFile.h" />
+    <ClInclude Include="ModelObject.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="MeshStreams.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonTypes\CommonTypes.vcxproj">
+      <Project>{8d7ae6c8-44be-492d-a0d2-828a8c0ffff1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ext\igl.vcxproj">
+      <Project>{29e5f215-41eb-38e0-837f-31066092ba9b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\meshShared\meshShared.vcxproj">
+      <Project>{d5f94e88-aeee-474e-a665-3e77a697d00d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonClasses\CommonClasses.vcxproj">
+      <Project>{c7c5e3dc-2c24-4bf2-9495-5c4af9e57d08}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

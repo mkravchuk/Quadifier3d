@@ -1,0 +1,20 @@
+1) Replace all string
+
+K:\source\libgl_examples
+
+to 
+
+OutDir
+$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\
+IntDir
+$(SolutionDir)\..\Quadifier3d_BIN\ext\$(ProjectName)\$(Configuration)\
+
+
+or to (for source files *.cpp and *.h)
+
+K:\source\Quadifier3d\ext
+
+
+2) remove all refrences and replace them by local projects
+3) remove all cmake files from project
+4) remove all zerocheck reference projects

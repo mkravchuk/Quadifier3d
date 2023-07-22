@@ -1,0 +1,14 @@
+        std::string toString_rows_cols(Index rows, Index cols) const
+        {
+            std::string s = "";
+            for (Index row = 0; row < rows; row++)
+            {
+                if (row != 0) s += "\n";
+                for (Index col = 0; col < cols; col++)
+                {
+                    if (col != 0) s += ", ";
+                    s += std::to_string(m_data[row*cols + col]);
+                }
+            }
+            return s;
+        }

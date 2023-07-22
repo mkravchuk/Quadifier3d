@@ -1,0 +1,15 @@
+const MatrixXd& V
+const P3s& V
+
+
+VectorXd
+Ds
+
+Vector3d
+V3
+
+Point3d
+P3
+
+Matrix3d
+M3

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="K:\libs\libgl\shared\cmake\CMakeLists.txt" />
+    <CustomBuild Include="K:\source\libgl_examples\tutorial_build\CMakeFiles\f2b1c64e5af0f0a2345267d6986333fe\Copy-CoMISo-DLL.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="K:\source\libgl_examples\tutorial_build\libigl\CMakeFiles\Copy-CoMISo-DLL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6DD2F661-3E17-3A3B-A0E4-7A5A1A1B2622}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

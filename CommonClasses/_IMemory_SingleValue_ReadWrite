@@ -1,0 +1,30 @@
+#pragma region Read/Write (single value)
+CommonClassesINLINE T& operator()(Index index)
+{
+    #if DEBUG
+    assert(index >= 0 && index < size() && "index is out of range");
+    #endif
+    return data()[index];
+}
+CommonClassesINLINE T operator()(Index index) const
+{
+    #if DEBUG
+    assert(index >= 0 && index < size() && "index is out of range");
+    #endif
+    return data()[index];
+}
+CommonClassesINLINE T& operator[](Index index)
+{
+    #if DEBUG
+    assert(index >= 0 && index < size() && "index is out of range");
+    #endif
+    return data()[index];
+}
+CommonClassesINLINE T operator[](Index index) const
+{
+    #if DEBUG
+    assert(index >= 0 && index < size() && "index is out of range");
+    #endif
+    return data()[index];
+}
+#pragma endregion 

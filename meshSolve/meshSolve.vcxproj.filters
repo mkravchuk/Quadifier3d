@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8F9C1D7A-03D4-3077-8EF4-ACF762D37695}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c05578a0-5ae5-4031-8385-0c3bd1271bc7}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Polar">
+      <UniqueIdentifier>{41b5240b-b746-4143-b813-53377988505d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Complex">
+      <UniqueIdentifier>{4a5b7b63-fc66-4ab3-9901-ce9a2a437310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Single">
+      <UniqueIdentifier>{5bbae24a-e574-4331-b7f9-98ee08a507e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Single">
+      <UniqueIdentifier>{9767dca5-274d-4947-8483-217b569bde27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Complex">
+      <UniqueIdentifier>{b4f5ad76-6ffa-40d2-9d67-9379805eeb96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Polar">
+      <UniqueIdentifier>{dcc59d90-6f7d-4c9b-8069-79f1daff7798}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindCrossFieldSingularities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPolyVectorFieldSolverGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LDLTFloatSolver.cpp">
+      <Filter>Source Files\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearEquationSolver.cpp">
+      <Filter>Source Files\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="NPolyVectorFieldSolver.cpp">
+      <Filter>Source Files\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="LDLTFloatSolver_Complex2x.cpp">
+      <Filter>Source Files\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearEquationSolver_Complex2x.cpp">
+      <Filter>Source Files\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="NPolyVectorFieldSolver_Complex2x.cpp">
+      <Filter>Source Files\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="LDLTFloatSolver_Polar2x.cpp">
+      <Filter>Source Files\Polar</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearEquationSolver_Polar2x.cpp">
+      <Filter>Source Files\Polar</Filter>
+    </ClCompile>
+    <ClCompile Include="NPolyVectorFieldSolver_Polar2x.cpp">
+      <Filter>Source Files\Polar</Filter>
+    </ClCompile>
+    <ClCompile Include="Amd_Polar2x.cpp">
+      <Filter>Source Files\Polar</Filter>
+    </ClCompile>
+    <ClCompile Include="UVlscmSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UVmiqSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleBoundFFSolver_Eigen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleBoundFFSolver_Polar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleBoundFFSolver_V3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindCrossFieldSingularities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceConstrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SparceUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SparceMatrixDirect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPolyVectorFieldSolverGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LDLTFloatSolver_Polar2x.h">
+      <Filter>Header Files\Polar</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearEquationSolver_Polar2x.h">
+      <Filter>Header Files\Polar</Filter>
+    </ClInclude>
+    <ClInclude Include="NPolyVectorFieldSolver_Polar2x.h">
+      <Filter>Header Files\Polar</Filter>
+    </ClInclude>
+    <ClInclude Include="LDLTFloatSolver_Complex2x.h">
+      <Filter>Header Files\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearEquationSolver_Complex2x.h">
+      <Filter>Header Files\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="NPolyVectorFieldSolver_Complex2x.h">
+      <Filter>Header Files\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="SolverTypes_Complex2x.h">
+      <Filter>Header Files\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="SolverTypes_Polar2x.h">
+      <Filter>Header Files\Polar</Filter>
+    </ClInclude>
+    <ClInclude Include="LDLTFloatSolver.h">
+      <Filter>Header Files\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="NPolyVectorFieldSolver.h">
+      <Filter>Header Files\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="SolverTypes.h">
+      <Filter>Header Files\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearEquationSolver.h">
+      <Filter>Header Files\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="Amd_Polar2x.h">
+      <Filter>Header Files\Polar</Filter>
+    </ClInclude>
+    <ClInclude Include="UVlscmSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UVmiqSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleBoundFFSolver_Polar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleBoundFFSolver_Eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleBoundFFSolver_V3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

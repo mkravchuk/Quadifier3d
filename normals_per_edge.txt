@@ -1,0 +1,33 @@
+---How to achieve properly draw of crease---
+
+one vertex can be splited to few vertexes
+v(i) => v(i) + v(N+1) + v(N+2)
+so vertexes v(i) + v(N+1) + v(N+2) will have same positions and colors, but different normals:
+vn(i) => vn(i) + vn(N+1) + vn(N+2)
+since we have splited vertexes to few, the faces that are using start vertex v(i) should be updated to point to the new vertexes
+
+since we can't dynamicaly update data in mesh, we have to store our data in class MeshSurface - in such a way we will be able to change dynamicaly data and show them in viewport
+additional data to store:
+1) additional vertexes
+2) additional normals
+3) updated faces
+
+so we have to define a new class
+class MeshNormalCorrections
+{
+    P3s V; // additional vertexes
+    V3s V_normals; // additional normals (same amount as V)
+    vector<pair<int, Vector3i>>; // updated faces: pair<fid, vids>
+}
+
+and update class ViewportData_Mesh to keep data
+class ViewportData_Mesh
+{
+    const P3s& V;
+    const MatrixXi& F;
+    const V3s& F_normals;
+    const V3s& V_normals;
+    const MeshNormalCorrections& Corrections;
+}
+ 
+while sending data to GPU we will use this addtional data to properly add new vertexes and theirs normals to achieve properly draw of crease

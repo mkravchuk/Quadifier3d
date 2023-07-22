@@ -1,0 +1,21 @@
++ Widget
++ Screen
++ Window
+
++ Label
++ CheckBox
++ TextBox
++ Button
++ ComboBox
++ PopupButton
++ Popup
+
++ ImageView
++ VScrollPanel
+
+
+
+markDirty();
+
+
+інші компоненти треба буде теж зробити - треба добавити "markDirty()" всюди де вібуваєтьися зміна в зміні настройок або стану

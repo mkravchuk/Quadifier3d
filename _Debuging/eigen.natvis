@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+  <!-- Point34f, Vector34f -->
+  <Type Name="CommonClasses::Point34f">
+    <AlternativeType Name="CommonClasses::Vector34f"/>
+    <DisplayString>[3] ({xmm.m128_f32[0]}, {xmm.m128_f32[1]}, {xmm.m128_f32[2]})</DisplayString>
+    <Expand>
+      <Item Name="[x]">xmm.m128_f32[0]</Item>
+      <Item Name="[y]">xmm.m128_f32[1]</Item>
+      <Item Name="[z]">xmm.m128_f32[2]</Item>
+    </Expand>
+  </Type>
+
+  <!-- MatrixX34-->
+  <Type Name="CommonClasses::MemoryDynamic&lt;float,CommonClasses::MatrixX34__Info&gt;">
+    <DisplayString Condition="m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_data != 0">[rows={m_info.Rows}] (dynamic vector)</DisplayString>
+    <Expand>
+      <CustomListItems>
+        <Variable Name="a" InitialValue="m_data" />
+        <Variable Name="i" InitialValue="0" />
+        <Variable Name="index" InitialValue="0" />
+        <Size>m_info.Rows</Size>
+        <Loop>
+          <Item Name="{a[i]}, {a[i+1]}, {a[i + 2]}">index</Item>
+          <Exec>i+=4</Exec>
+          <Exec>index+=1</Exec>
+        </Loop>
+      </CustomListItems>
+    </Expand>
+ </Type>
+
+  <!-- Vector<>  dynamic-->
+  <Type Name="CommonClasses::MemoryDynamic&lt;*,CommonClasses::Vector_Dynamic_Info&gt;">
+    <DisplayString Condition="m_data == 0">empty</DisplayString>
+    <!--<DisplayString Condition="m_data != 0">[size={m_size}] Vector&lt;&gt;)</DisplayString>-->
+    <DisplayString Condition="m_size == 1">size={m_size}   Vector&lt;&gt;   [{m_data[0]}]</DisplayString>
+    <DisplayString Condition="m_size == 2">size={m_size}   Vector&lt;&gt;   [{m_data[0]}, {m_data[1]}]</DisplayString>
+    <DisplayString Condition="m_size == 3">size={m_size}   Vector&lt;&gt;   [{m_data[0]}, {m_data[1]}, {m_data[2]}]</DisplayString>
+    <DisplayString Condition="m_size == 4">size={m_size}   Vector&lt;&gt;   [{m_data[0]}, {m_data[1]}, {m_data[2]}, {m_data[3]}]</DisplayString>
+    <DisplayString Condition="m_size == 5">size={m_size}   Vector&lt;&gt;   [{m_data[0]}, {m_data[1]}, {m_data[2]}, {m_data[3]}, {m_data[4]}]</DisplayString>
+    <DisplayString Condition="m_size &gt; 5">size={m_size}   Vector&lt;&gt;   [{m_data[0]}, {m_data[1]}, {m_data[2]} ... {m_data[m_size-2]}, {m_data[m_size-1]}]</DisplayString>
+    <DisplayString Condition="m_data != 0">size={m_size}   Vector&lt;&gt;</DisplayString>
+    <Expand>
+      <!--<Synthetic Name="size">
+        <DisplayString>{m_size}</DisplayString>
+      </Synthetic>-->
+      <!--<CustomListItems>
+        <Variable Name="a" InitialValue="m_data" />
+        <Variable Name="i" InitialValue="0" />
+        <Size>m_size</Size>
+        <Loop>
+          <Item Name="{i}">a[i]</Item>
+          <Exec>i++</Exec>
+        </Loop>
+      </CustomListItems>-->
+      <ArrayItems>
+        <Rank>1</Rank>
+        <Size>m_size</Size>
+        <ValuePointer>m_data</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+
+  <!-- Vector<bool>  dynamic-->
+  <Type Name="CommonClasses::MemoryDynamic&lt;*,CommonClasses::Vector_Dynamic_bool_Info&gt;">
+    <DisplayString Condition="m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_data != 0">size={m_info.bitsCount}   Vector&lt;bool&gt;</DisplayString>
+    <Expand>
+      <!--<Synthetic Name="size">
+        <DisplayString>{m_info.bitsCount}</DisplayString>
+      </Synthetic>-->
+      <CustomListItems>
+        <Variable Name="a" InitialValue="m_data" />
+        <Variable Name="i" InitialValue="0" />
+        <Size>m_info.bitsCount</Size>
+        <Loop>
+          <Item Name="[{i}]">((a[i&gt;&gt;5])&gt;&gt;(i&amp;31))&amp;1</Item>
+          <Exec>i++</Exec>
+        </Loop>
+      </CustomListItems>
+    </Expand>
+  </Type>
+
+
+  <Type Name="Complex2f">
+    <DisplayString>{xmm.m128_f32[0]}, {xmm.m128_f32[1]}     Complex2f</DisplayString>
+  </Type>
+
+  <Type Name="Complex4f">
+    <DisplayString>{xmm.m128_f32[0]}, {xmm.m128_f32[1]}     {xmm.m128_f32[2]}, {xmm.m128_f32[3]}     Complex4f</DisplayString>
+  </Type>
+
+
+  <!-- Fixed x Fixed Matrix -->
+  <Type Name="Eigen::Matrix&lt;*,*,*,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,-1,-1,*,*,*&gt;"/>
+    <DisplayString>[{$T2}, {$T3}] (fixed matrix)</DisplayString>
+    <Expand>
+      <ArrayItems Condition="Flags%2">
+        <!-- row major layout -->
+        <Rank>2</Rank>
+        <Size>$i==0 ? $T2 : $T3</Size>
+        <ValuePointer>m_storage.m_data.array</ValuePointer>
+      </ArrayItems>
+      <ArrayItems Condition="!(Flags%2)">
+        <!-- column major layout -->
+        <Direction>Backward</Direction>
+        <Rank>2</Rank>
+        <Size>$i==0 ? $T2 : $T3</Size>
+        <ValuePointer>m_storage.m_data.array</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+
+  <!-- 2 x 2 Matrix -->
+  <Type Name="Eigen::Matrix&lt;*,2,2,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,2,2,*,*,*&gt;"/>
+    <DisplayString>[2, 2] (fixed matrix)</DisplayString>
+    <Expand>
+      <Synthetic Name="[row 0]" Condition="Flags%2">
+        <DisplayString>({m_storage.m_data.array[0]}, {m_storage.m_data.array[1]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 0]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[0]}, {m_storage.m_data.array[2]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 1]" Condition="Flags%2">
+        <DisplayString>({m_storage.m_data.array[2]}, {m_storage.m_data.array[3]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 1]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[1]}, {m_storage.m_data.array[3]})</DisplayString>
+      </Synthetic>
+    </Expand>
+  </Type>
+
+  <!-- 3 x 3 Matrix -->
+  <Type Name="Eigen::Matrix&lt;*,3,3,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,3,3,*,*,*&gt;"/>
+    <DisplayString>[3, 3] (fixed matrix)</DisplayString>
+    <Expand>
+      <Synthetic Name="[row 0]" Condition="Flags%2" >
+        <DisplayString>({m_storage.m_data.array[0]}, {m_storage.m_data.array[1]}, {m_storage.m_data.array[2]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 0]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[0]}, {m_storage.m_data.array[3]}, {m_storage.m_data.array[6]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 1]" Condition="Flags%2">
+        <DisplayString>({m_storage.m_data.array[3]}, {m_storage.m_data.array[4]}, {m_storage.m_data.array[5]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 1]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[1]}, {m_storage.m_data.array[4]}, {m_storage.m_data.array[7]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 2]" Condition="Flags%2">
+        <DisplayString>({m_storage.m_data.array[6]}, {m_storage.m_data.array[7]}, {m_storage.m_data.array[8]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 2]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[2]}, {m_storage.m_data.array[5]}, {m_storage.m_data.array[8]})</DisplayString>
+      </Synthetic>
+    </Expand>
+  </Type>
+
+  <!-- 4 x 4 Matrix -->
+  <Type Name="Eigen::Matrix&lt;*,4,4,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,4,4,*,*,*&gt;"/>
+    <DisplayString>[4, 4] (fixed matrix)</DisplayString>
+    <Expand>
+      <Synthetic Name="[row 0]" Condition="Flags%2">
+        <DisplayString>({m_storage.m_data.array[0]}, {m_storage.m_data.array[1]}, {m_storage.m_data.array[2]}, {m_storage.m_data.array[3]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 0]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[0]}, {m_storage.m_data.array[4]}, {m_storage.m_data.array[8]}, {m_storage.m_data.array[12]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 1]" Condition="Flags%2">
+        <DisplayString>({m_storage.m_data.array[4]}, {m_storage.m_data.array[5]}, {m_storage.m_data.array[6]}, {m_storage.m_data.array[7]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 1]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[1]}, {m_storage.m_data.array[5]}, {m_storage.m_data.array[9]}, {m_storage.m_data.array[13]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 2]" Condition="Flags%2">
+        <DisplayString>({m_storage.m_data.array[8]}, {m_storage.m_data.array[9]}, {m_storage.m_data.array[10]}, {m_storage.m_data.array[11]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 2]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[2]}, {m_storage.m_data.array[6]}, {m_storage.m_data.array[10]}, {m_storage.m_data.array[14]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 3]" Condition="Flags%2">
+        <DisplayString>({m_storage.m_data.array[12]}, {m_storage.m_data.array[13]}, {m_storage.m_data.array[14]}, {m_storage.m_data.array[15]})</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[row 3]" Condition="!(Flags%2)">
+        <DisplayString>({m_storage.m_data.array[3]}, {m_storage.m_data.array[7]}, {m_storage.m_data.array[11]}, {m_storage.m_data.array[15]})</DisplayString>
+      </Synthetic>
+    </Expand>
+  </Type>
+
+  <!-- Dynamic x Dynamic Matrix -->
+  <!--<Type Name="Eigen::Matrix&lt;*,-1,-1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,-1,-1,*,*,*&gt;"/>
+    <DisplayString Condition="m_storage.m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0 &amp;&amp; Flags%2">[{m_storage.m_rows}, {m_storage.m_cols}] (dynamic matrix, row major)</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0 &amp;&amp; !(Flags%2)">[{m_storage.m_rows}, {m_storage.m_cols}] (dynamic matrix, column major)</DisplayString>
+    <Expand>
+      <ArrayItems Condition="Flags%2">
+        -->
+  <!-- row major layout -->
+  <!--
+        <Rank>2</Rank>
+        <Size>$i==0 ? m_storage.m_rows : m_storage.m_cols</Size>
+        <ValuePointer>m_storage.m_data</ValuePointer>
+      </ArrayItems>
+      <ArrayItems Condition="!(Flags%2)">
+        -->
+  <!-- column major layout -->
+  <!--
+        <Direction>Backward</Direction>
+        <Rank>2</Rank>
+        <Size>$i==0 ? m_storage.m_rows : m_storage.m_cols</Size>
+        <ValuePointer>m_storage.m_data</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>-->
+
+  <!-- Fixed x Dynamic Matrix -->
+  <!--<Type Name="Eigen::Matrix&lt;*,*,-1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,*,-1,*,*,*&gt;"/>
+    <DisplayString Condition="m_storage.m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0">[{$T2}, {m_storage.m_cols}] (dynamic column matrix)</DisplayString>
+    <Expand>
+      <ArrayItems Condition="Flags%2">
+        -->
+  <!-- row major layout -->
+  <!--
+        <Rank>2</Rank>
+        <Size>$i==0 ? $T2 : m_storage.m_cols</Size>
+        <ValuePointer>m_storage.m_data</ValuePointer>
+      </ArrayItems>
+      <ArrayItems Condition="!(Flags%2)">
+        -->
+  <!-- column major layout -->
+  <!--
+        <Direction>Backward</Direction>
+        <Rank>2</Rank>
+        <Size>$i==0 ? $T2 : m_storage.m_cols</Size>
+        <ValuePointer>m_storage.m_data</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>-->
+
+  <!-- Dynamic x Fixed Matrix -->
+  <!--<Type Name="Eigen::Matrix&lt;*,-1,*,*,*,*&gt;">
+      <AlternativeType Name="Eigen::Array&lt;*,-1,*,*,*,*&gt;"/>
+      <DisplayString Condition="m_storage.m_data == 0">empty</DisplayString>
+      <DisplayString Condition="m_storage.m_data != 0">[{m_storage.m_rows}, {$T2}] (dynamic row matrix)</DisplayString>
+      <Expand>
+        <ArrayItems Condition="Flags%2"> -->
+  <!-- row major layout -->
+  <!--
+          <Rank>2</Rank>
+          <Size>$i==0 ? m_storage.m_rows : $T2</Size>
+          <ValuePointer>m_storage.m_data</ValuePointer>
+        </ArrayItems>
+        <ArrayItems Condition="!(Flags%2)"> -->
+  <!-- column major layout -->
+  <!--
+          <Direction>Backward</Direction>
+          <Rank>2</Rank>
+          <Size>$i==0 ? m_storage.m_rows : $T2</Size>
+          <ValuePointer>m_storage.m_data</ValuePointer>
+        </ArrayItems>
+      </Expand>
+  </Type>-->
+
+  <!-- Dynamic x Dynamic Matrix (matrix version)-->
+  <Type Name="Eigen::Matrix&lt;*,-1,-1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,-1,-1,*,*,*&gt;"/>
+    <DisplayString Condition="m_storage.m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0 &amp;&amp; Flags%2">[{m_storage.m_rows}, {m_storage.m_cols}] (dynamic matrix, row major)</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0 &amp;&amp; !(Flags%2)">[{m_storage.m_rows}, {m_storage.m_cols}] (dynamic matrix, column major)</DisplayString>
+    <Expand>
+      <CustomListItems>
+        <Variable Name="a" InitialValue="m_storage.m_data" />
+        <Variable Name="rows" InitialValue="$T2==-1 ? m_storage.m_rows : $T2" />
+        <Variable Name="cols" InitialValue="$T3==-1 ? m_storage.m_cols : $T3" />
+        <Variable Name="i" InitialValue="0" />
+        <Variable Name="index" InitialValue="0" />
+        <Variable Name="inc" InitialValue="(Flags%2) ? cols : 1" />
+        <Variable Name="c" InitialValue="(Flags%2) ? 1 : m_storage.m_rows" />
+        <Size>m_storage.m_rows</Size>
+        <Loop Condition="cols==1">
+          <Item Name="{a[i]}">i</Item>
+          <Exec>i+=inc</Exec>
+          <Exec>index++</Exec>
+        </Loop>
+        <Loop Condition="cols==2">
+          <Item Name="{a[i]}, {a[i+c]}">index</Item>
+          <Exec>i+=inc</Exec>
+          <Exec>index++</Exec>
+        </Loop>
+        <Loop Condition="cols==3">
+          <Item Name="{a[i]}, {a[i+c]}, {a[i + c*2]}">index</Item>
+          <Exec>i+=inc</Exec>
+          <Exec>index++</Exec>
+        </Loop>
+        <Loop Condition="cols==4">
+          <Item Name="{a[i]}, {a[i+c]}, {a[i + c*2]}, {a[i + c*3]}">index</Item>
+          <Exec>i+=inc</Exec>
+          <Exec>index++</Exec>
+        </Loop>
+        <Loop Condition="cols==5">
+          <Item Name="{a[i]}, {a[i+c]}, {a[i + c*2]}, {a[i + c*3]}, {a[i + c*4]}">index</Item>
+          <Exec>i+=inc</Exec>
+          <Exec>index++</Exec>
+        </Loop>
+      </CustomListItems>
+    </Expand>
+  </Type>
+
+  <!-- Fixed x Dynamic Matrix  (matrix version)-->
+  <Type Name="Eigen::Matrix&lt;*,*,-1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,*,-1,*,*,*&gt;"/>
+    <DisplayString Condition="m_storage.m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0">[{$T2}, {m_storage.m_cols}] (dynamic column matrix)</DisplayString>
+    <Expand>
+      <ArrayItems Condition="Flags%2">
+        <!-- row major layout -->
+        <Rank>2</Rank>
+        <Size>$i==0 ? $T2 : m_storage.m_cols</Size>
+        <ValuePointer>m_storage.m_data</ValuePointer>
+      </ArrayItems>
+      <ArrayItems Condition="!(Flags%2)">
+        <!-- column major layout -->
+        <Direction>Backward</Direction>
+        <Rank>2</Rank>
+        <Size>$i==0 ? $T2 : m_storage.m_cols</Size>
+        <ValuePointer>m_storage.m_data</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+  <!-- Dynamic x Fixed Matrix  (matrix version)-->
+  <Type Name="Eigen::Matrix&lt;*,-1,*,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,-1,*,*,*,*&gt;"/>
+    <DisplayString Condition="m_storage.m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0">[{m_storage.m_rows}, {$T2}] (dynamic row matrix)</DisplayString>
+    <Expand>
+      <CustomListItems>
+        <Variable Name="a" InitialValue="m_storage.m_data" />
+        <Variable Name="i" InitialValue="0" />
+        <Variable Name="inc" InitialValue="(Flags%2) ? $T2 : 1" />
+        <Variable Name="c" InitialValue="(Flags%2) ? 1 : m_storage.m_rows" />
+        <Size>m_storage.m_rows</Size>
+        <Loop Condition="$T2==1">
+          <Item Name="{a[i]}">i</Item>
+          <Exec>i+=inc</Exec>
+        </Loop>
+        <Loop Condition="$T2==2">
+          <Item Name="{a[i]}, {a[i+c]}">i</Item>
+          <Exec>i+=inc</Exec>
+        </Loop>
+        <Loop Condition="$T2==3">
+          <Item Name="{a[i]}, {a[i+c]}, {a[i + c*2]}">i</Item>
+          <Exec>i+=inc</Exec>
+        </Loop>
+        <Loop Condition="$T2==4">
+          <Item Name="{a[i]}, {a[i+c]}, {a[i + c*2]}, {a[i + c*3]}">i</Item>
+          <Exec>i+=inc</Exec>
+        </Loop>
+        <Loop Condition="$T2==5">
+          <Item Name="{a[i]}, {a[i+c]}, {a[i + c*2]}, {a[i + c*3]}, {a[i + c*4]}">i</Item>
+          <Exec>i+=inc</Exec>
+        </Loop>
+      </CustomListItems>
+    </Expand>
+  </Type>
+
+  <!-- Dynamic Column Vector -->
+  <Type Name="Eigen::Matrix&lt;*,1,-1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,1,-1,*,*,*&gt;"/>
+    <DisplayString Condition="m_storage.m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0">[{m_storage.m_cols}] (dynamic column vector)</DisplayString>
+    <Expand>
+      <ArrayItems>
+        <Size>m_storage.m_cols</Size>
+        <ValuePointer>m_storage.m_data</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+
+  <!-- Dynamic Row Vector -->
+  <Type Name="Eigen::Matrix&lt;*,-1,1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,-1,1,*,*,*&gt;"/>
+    <DisplayString Condition="m_storage.m_data == 0">empty</DisplayString>
+    <DisplayString Condition="m_storage.m_data != 0">[{m_storage.m_rows}] (dynamic row vector)</DisplayString>
+    <Expand>
+      <ArrayItems>
+        <Size>m_storage.m_rows</Size>
+        <ValuePointer>m_storage.m_data</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+
+  <!-- Fixed Vector -->
+  <Type Name="Eigen::Matrix&lt;*,1,1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Array&lt;*,1,1,*,*,*&gt;"/>
+    <DisplayString>[1] ({m_storage.m_data.array[0]})</DisplayString>
+    <Expand>
+      <Item Name="[x]">m_storage.m_data.array[0]</Item>
+    </Expand>
+  </Type>
+
+  <Type Name="Eigen::Matrix&lt;*,2,1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Matrix&lt;*,1,2,*,*,*&gt;"/>
+    <AlternativeType Name="Eigen::Array&lt;*,2,1,*,*,*&gt;"/>
+    <AlternativeType Name="Eigen::Array&lt;*,1,2,*,*,*&gt;"/>
+    <DisplayString>[2] ({m_storage.m_data.array[0]}, {m_storage.m_data.array[1]})</DisplayString>
+    <Expand>
+      <Item Name="[x]">m_storage.m_data.array[0]</Item>
+      <Item Name="[y]">m_storage.m_data.array[1]</Item>
+    </Expand>
+  </Type>
+
+  <Type Name="Eigen::Matrix&lt;*,3,1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Matrix&lt;*,1,3,*,*,*&gt;"/>
+    <AlternativeType Name="Eigen::Array&lt;*,3,1,*,*,*&gt;"/>
+    <AlternativeType Name="Eigen::Array&lt;*,1,3,*,*,*&gt;"/>
+    <DisplayString>[3] ({m_storage.m_data.array[0]}, {m_storage.m_data.array[1]}, {m_storage.m_data.array[2]})</DisplayString>
+    <Expand>
+      <Item Name="[x]">m_storage.m_data.array[0]</Item>
+      <Item Name="[y]">m_storage.m_data.array[1]</Item>
+      <Item Name="[z]">m_storage.m_data.array[2]</Item>
+    </Expand>
+  </Type>
+
+  <Type Name="Eigen::Matrix&lt;*,4,1,*,*,*&gt;">
+    <AlternativeType Name="Eigen::Matrix&lt;*,1,4,*,*,*&gt;"/>
+    <AlternativeType Name="Eigen::Array&lt;*,4,1,*,*,*&gt;"/>
+    <AlternativeType Name="Eigen::Array&lt;*,1,4,*,*,*&gt;"/>
+    <DisplayString>[4] ({m_storage.m_data.array[0]}, {m_storage.m_data.array[1]}, {m_storage.m_data.array[2]}, {m_storage.m_data.array[3]})</DisplayString>
+    <Expand>
+      <Item Name="[x]">m_storage.m_data.array[0]</Item>
+      <Item Name="[y]">m_storage.m_data.array[1]</Item>
+      <Item Name="[z]">m_storage.m_data.array[2]</Item>
+      <Item Name="[w]">m_storage.m_data.array[3]</Item>
+    </Expand>
+  </Type>
+
+  <!-- Dynamic x Dynamic Sparse Matrix -->
+  <Type Name="Eigen::SparseMatrix&lt;*,*,*&gt;">
+    <DisplayString Condition="IsRowMajor">[{m_outerSize}, {m_innerSize}]  {m_data.m_size} values   (dynamic Sparse matrix, row major)</DisplayString>
+    <DisplayString Condition="!(IsRowMajor)">[{m_innerSize}, {m_outerSize}]  {m_data.m_size} values   (dynamic Sparse matrix, column major)</DisplayString>
+
+  </Type>
+</AutoVisualizer>

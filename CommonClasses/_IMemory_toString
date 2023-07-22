@@ -1,0 +1,10 @@
+std::string toString() const
+{
+    std::string s = "";
+    for (Index i = 0; i < size(); i++)
+    {
+        if (i != 0) s += ", ";
+        s += std::to_string(data()[i]);
+    }
+    return s;
+}
